@@ -15,10 +15,11 @@ A simple script which registers for contests available on codeforces which can b
 or
 - python3 register.py USERNAME PASSWORD  # default on linux
 
-## why do i need an additional package if have chromedriver installed and added to the path
+## why do i need an additional package if have chromedriver installed and added to the path?
 ### Short answer
 You Don't.
 ### Long answer  
 adding chromedriver to the path can be a real tricky task for a script-kiddie.
 so i researched about this and came across a very helpful module.
 This module takes care of all the hassle of adding chromedriver to the path
+so that it is easy for both the user and the developer.
